@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import TrustedBy from "./components/TrustedBy";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -20,6 +21,7 @@ const App = () => {
     <div className="bg-white dark:bg-[#0b0f1a] min-h-screen transition-colors duration-300">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
+      <TrustedBy/>
     </div>
   );
 };
