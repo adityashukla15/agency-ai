@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCode, FaPalette, FaMobileAlt } from "react-icons/fa";
 
-function HowCanWeHelp() {
+function HowcanWeHelp() {
   const services = [
     {
       icon: <FaCode size={28} />,
@@ -71,4 +71,4 @@ function HowCanWeHelp() {
   );
 }
 
-export default HowCanWeHelp;
+export default HowcanWeHelp;

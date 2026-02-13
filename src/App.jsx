@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
-import HowCanWeHelp from "./components/HowCanweHelp";
+import HowcanWeHelp from "./components/HowCanWeHelp.jsx";
 import ReachToUsLogin from "./components/ReachToUsLogin";
 import CreateAccount from "./components/CreateAccount";
 import Footer from "./components/Footer";
@@ -55,7 +55,7 @@ const App = () => {
           />
 
           {/* SERVICES */}
-          <Route path="/services" element={<HowCanWeHelp />} />
+          <Route path="/services" element={<HowcanWeHelp/>} />
 
           {/* CONTACT PAGE */}
           <Route path="/contact-us" element={<ReachToUsLogin />} />
