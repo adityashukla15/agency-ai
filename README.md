@@ -1,16 +1,47 @@
-# React + Vite
+# 🚀 AGENCY-AI – Frontend React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend web application built using **React.js**.
 
-Currently, two official plugins are available:
+This project focuses on implementing core React concepts like routing, reusable components, context API, and theme management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ This is a frontend-only project. No backend integration.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **Visit Website:**  
+👉 <a href="https://agency-ai-em5v.vercel.app/" target="_blank">Agency AI</a>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+<img width="1865" height="946" alt="image" src="https://github.com/user-attachments/assets/12da3e7f-ee59-47ba-b9f2-1ef363dbe47a" />
+---
+
+## 📌 Features
+
+- 🌙 Dark / Light Theme Toggle
+- 📱 Fully Responsive Design
+- 🔀 React Router DOM Routing
+- ♻️ Reusable Components Architecture
+- 🧠 Context API for Global State Management
+- 🎨 Tailwind CSS Styling
+- 📂 Clean Folder Structure
+- 📱 Animated Mobile Sidebar
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- React Router DOM
+- Context API
+- Tailwind CSS
+- Vite
+
+---
+
+
