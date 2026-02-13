@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
-import HowcanWeHelp from "./components/HowCanWeHelp.jsx";
+import Help from "./components/Help"
 import ReachToUsLogin from "./components/ReachToUsLogin";
 import CreateAccount from "./components/CreateAccount";
 import Footer from "./components/Footer";
@@ -38,7 +38,7 @@ const App = () => {
               <>
                 <Hero />
                 <TrustedBy />
-                <HowCanWeHelp />
+                <Help />
 
                 {/* Reach Us Section on Homepage */}
                 <section className="py-20 px-6">
@@ -55,7 +55,7 @@ const App = () => {
           />
 
           {/* SERVICES */}
-          <Route path="/services" element={<HowcanWeHelp/>} />
+          <Route path="/services" element={<Help/>} />
 
           {/* CONTACT PAGE */}
           <Route path="/contact-us" element={<ReachToUsLogin />} />
